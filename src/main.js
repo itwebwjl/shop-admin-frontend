@@ -9,6 +9,10 @@ import axios from 'axios';
 // 3.全局注册组件
 Vue.use(ElementUI);
 
+// 引入vue-router 
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
 
 Vue.config.productionTip = false
 
