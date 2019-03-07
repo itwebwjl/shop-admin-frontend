@@ -38,6 +38,9 @@ Vue.config.productionTip = false
 
 Vue.prototype.$axios = axios;
 
+axios.defaults.baseURL = 'http://localhost:8899';
+
+
 new Vue({
   el: "#app",
   render: function (createElement) {
